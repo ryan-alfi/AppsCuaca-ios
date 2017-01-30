@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,12 +20,53 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VD3-lg-AaD">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="unnamed.png" translatesAutoresizingMaskIntoConstraints="NO" id="aAt-Vr-TxO">
+                                        <rect key="frame" x="74" y="222" width="226" height="223"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="223" id="Myf-8b-DNn"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WeatherApp" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NCF-cn-KSL">
+                                        <rect key="frame" x="110" y="473" width="155" height="74"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="74" id="4eq-pZ-JTX"/>
+                                            <constraint firstAttribute="width" constant="155" id="RSm-aE-iQd"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.58039215690000001" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="aAt-Vr-TxO" firstAttribute="centerY" secondItem="VD3-lg-AaD" secondAttribute="centerY" id="6ic-G7-aRX"/>
+                                    <constraint firstItem="aAt-Vr-TxO" firstAttribute="centerX" secondItem="VD3-lg-AaD" secondAttribute="centerX" id="CqJ-Dd-CSs"/>
+                                    <constraint firstItem="NCF-cn-KSL" firstAttribute="centerX" secondItem="aAt-Vr-TxO" secondAttribute="centerX" id="mU5-A3-Ujq"/>
+                                    <constraint firstAttribute="trailing" secondItem="aAt-Vr-TxO" secondAttribute="trailing" constant="75" id="p8K-HS-zTW"/>
+                                    <constraint firstItem="aAt-Vr-TxO" firstAttribute="leading" secondItem="VD3-lg-AaD" secondAttribute="leading" constant="74" id="qYL-ze-e3y"/>
+                                    <constraint firstItem="NCF-cn-KSL" firstAttribute="top" secondItem="aAt-Vr-TxO" secondAttribute="bottom" constant="28" id="yZ7-NS-8rs"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="VD3-lg-AaD" secondAttribute="bottom" id="7ZJ-TS-1vP"/>
+                            <constraint firstItem="VD3-lg-AaD" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="KhV-9u-ku9"/>
+                            <constraint firstItem="VD3-lg-AaD" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="iOL-mb-XyM"/>
+                            <constraint firstAttribute="trailing" secondItem="VD3-lg-AaD" secondAttribute="trailing" id="n0e-Nf-q46"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="unnamed.png" width="300" height="300"/>
+    </resources>
 </document>

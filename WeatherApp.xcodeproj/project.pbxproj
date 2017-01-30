@@ -12,6 +12,12 @@
 		88F45F711E372C08003CD6EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F45F6F1E372C08003CD6EB /* Main.storyboard */; };
 		88F45F731E372C08003CD6EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88F45F721E372C08003CD6EB /* Assets.xcassets */; };
 		88F45F761E372C08003CD6EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F45F741E372C08003CD6EB /* LaunchScreen.storyboard */; };
+		88F45F7E1E375305003CD6EB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F45F7D1E375305003CD6EB /* DetailViewController.swift */; };
+		88F45F801E3857A2003CD6EB /* CustomViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F45F7F1E3857A2003CD6EB /* CustomViewCell.swift */; };
+		88F45F821E38A1C6003CD6EB /* unnamed.png in Resources */ = {isa = PBXBuildFile; fileRef = 88F45F811E38A1C6003CD6EB /* unnamed.png */; };
+		88F45F861E39A825003CD6EB /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F45F851E39A825003CD6EB /* MyCollectionViewCell.swift */; };
+		88F45F881E39A868003CD6EB /* SunMoonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F45F871E39A868003CD6EB /* SunMoonViewController.swift */; };
+		88F47E411E39D2B700612166 /* ModallyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F47E401E39D2B700612166 /* ModallyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		88F45F721E372C08003CD6EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88F45F751E372C08003CD6EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88F45F771E372C08003CD6EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88F45F7D1E375305003CD6EB /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		88F45F7F1E3857A2003CD6EB /* CustomViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewCell.swift; sourceTree = "<group>"; };
+		88F45F811E38A1C6003CD6EB /* unnamed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unnamed.png; sourceTree = "<group>"; };
+		88F45F851E39A825003CD6EB /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		88F45F871E39A868003CD6EB /* SunMoonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunMoonViewController.swift; sourceTree = "<group>"; };
+		88F47E401E39D2B700612166 /* ModallyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModallyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +69,15 @@
 				88F45F6B1E372C08003CD6EB /* AppDelegate.swift */,
 				88F45F6D1E372C08003CD6EB /* ViewController.swift */,
 				88F45F6F1E372C08003CD6EB /* Main.storyboard */,
+				88F45F811E38A1C6003CD6EB /* unnamed.png */,
 				88F45F721E372C08003CD6EB /* Assets.xcassets */,
 				88F45F741E372C08003CD6EB /* LaunchScreen.storyboard */,
 				88F45F771E372C08003CD6EB /* Info.plist */,
+				88F45F7D1E375305003CD6EB /* DetailViewController.swift */,
+				88F45F7F1E3857A2003CD6EB /* CustomViewCell.swift */,
+				88F45F851E39A825003CD6EB /* MyCollectionViewCell.swift */,
+				88F45F871E39A868003CD6EB /* SunMoonViewController.swift */,
+				88F47E401E39D2B700612166 /* ModallyViewController.swift */,
 			);
 			path = WeatherApp;
 			sourceTree = "<group>";
@@ -125,6 +143,7 @@
 			files = (
 				88F45F761E372C08003CD6EB /* LaunchScreen.storyboard in Resources */,
 				88F45F731E372C08003CD6EB /* Assets.xcassets in Resources */,
+				88F45F821E38A1C6003CD6EB /* unnamed.png in Resources */,
 				88F45F711E372C08003CD6EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88F45F7E1E375305003CD6EB /* DetailViewController.swift in Sources */,
+				88F45F881E39A868003CD6EB /* SunMoonViewController.swift in Sources */,
+				88F45F861E39A825003CD6EB /* MyCollectionViewCell.swift in Sources */,
+				88F45F801E3857A2003CD6EB /* CustomViewCell.swift in Sources */,
+				88F47E411E39D2B700612166 /* ModallyViewController.swift in Sources */,
 				88F45F6E1E372C08003CD6EB /* ViewController.swift in Sources */,
 				88F45F6C1E372C08003CD6EB /* AppDelegate.swift in Sources */,
 			);
@@ -258,10 +282,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WeatherApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Apokpak.WeatherApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -270,10 +298,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WeatherApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Apokpak.WeatherApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -297,6 +329,7 @@
 				88F45F7C1E372C08003CD6EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

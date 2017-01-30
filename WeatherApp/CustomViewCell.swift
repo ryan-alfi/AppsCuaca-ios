@@ -10,6 +10,12 @@ import UIKit
 
 class CustomViewCell: UITableViewCell {
 
+    @IBOutlet weak var img: UIImageView!
+    @IBOutlet weak var kondisi: UILabel!
+    @IBOutlet weak var waktu: UILabel!
+    @IBOutlet weak var temperatur: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
